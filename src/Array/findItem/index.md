@@ -32,7 +32,8 @@ export default () => (
   <div>
     <h3>{`const arr = [{a: 1, b: 11}, {a: 2, b: 22}]`}</h3>
     <h3>{`findItem(arr, 'a', 2)`}</h3>
-    <h3>// => {JSON.stringify(findItem(arr, 'a', 2))}</h3>
+
+    <h3>运行结果 // => {JSON.stringify(findItem(arr, 'a', 2))}</h3>
   </div>
 );
 ```
@@ -52,7 +53,8 @@ export default () => (
   <div>
     <h3>{`const arr = [{a: 1, b: 11}, {a: 2, b: 22}]`}</h3>
     <h3>{`findItem(arr, 'a', 2, 'b')`}</h3>
-    <h3>// => {JSON.stringify(findItem(arr, 'a', 2, 'b'))}</h3>
+
+    <h3>运行结果 // => {JSON.stringify(findItem(arr, 'a', 2, 'b'))}</h3>
   </div>
 );
 ```
